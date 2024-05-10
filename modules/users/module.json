@@ -20,7 +20,7 @@
             "name": "Fetch User",
             "public": true
         },
-        "fetch_by_uname": {
+        "fetch_by_username": {
             "name": "Fetch User by Username"
         },
         "create": {

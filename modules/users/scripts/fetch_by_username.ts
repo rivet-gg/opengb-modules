@@ -17,7 +17,7 @@ export async function run(
 
 	const users = await ctx.db.user.findMany({
 		where: { username: { in: req.usernames } },
-		orderBy: { username: "desc" },
+		orderBy: { username: "asc" },
 	});
 
 	return { users };

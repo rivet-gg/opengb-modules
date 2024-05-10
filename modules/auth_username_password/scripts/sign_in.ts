@@ -19,7 +19,7 @@ export async function run(
 
 	if (!ctx.config.enable) throw new RuntimeError("provider_disabled");
 
-	const { users: [user] } = await ctx.modules.users.fetchByUname({
+	const { users: [user] } = await ctx.modules.users.fetchByUsername({
 		usernames: [req.username],
 	});
 

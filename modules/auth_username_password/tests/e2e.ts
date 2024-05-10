@@ -18,7 +18,7 @@ test("test_sign_up", async (ctx: TestContext) => {
 	});
 
 
-	const { users: [user] } = await ctx.modules.users.fetchByUname({
+	const { users: [user] } = await ctx.modules.users.fetchByUsername({
 		usernames: [username],
 	});
 
@@ -55,7 +55,7 @@ test("test_sign_in", async (ctx: TestContext) => {
 		userToken: token.token,
 	});
 
-	const { users: [user] } = await ctx.modules.users.fetchByUname({
+	const { users: [user] } = await ctx.modules.users.fetchByUsername({
 		usernames: [username],
 	});
 
