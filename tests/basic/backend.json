@@ -64,9 +64,33 @@
 		},
 		"rivet": {
 			"registry": "local",
-      "config": {
-        "apiEndpoint": "https://api.nathan16.gameinc.io"
-      }
+			"config": {
+				"apiEndpoint": "https://api.nathan16.gameinc.io"
+			}
+		},
+		"achievements": {
+			"registry": "local"
+		},
+		"leaderboards": {
+			"registry": "local"
+		},
+		"analytics": {
+			"registry": "local"
+		},
+		"chat": {
+			"registry": "local"
+		},
+		"game_saves": {
+			"registry": "local"
+		},
+		"parties": {
+			"registry": "local"
+		},
+		"groups": {
+			"registry": "local"
+		},
+		"matchmaker": {
+			"registry": "local"
 		}
 	}
 }
