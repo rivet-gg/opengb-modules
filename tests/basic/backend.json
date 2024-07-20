@@ -38,6 +38,12 @@
                 }
             }
         },
+        "auth_username_password": {
+            "registry": "local",
+            "config": {
+                "enable": true
+            }
+        },
         "identities": {
             "registry": "local"
         },
